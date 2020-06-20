@@ -1,0 +1,64 @@
+{
+  "sentences": {
+    "numeric": {
+      "generic": [
+        "{S}{AP} {P} has {O}.",
+        "{S} has {A} {P} of {O}"
+      ],
+      "year": [
+        "{S}{AP} {P} was {O}."
+      ]
+    },
+    "string": {
+      "generic": [
+        "{S}{AP} {P} {VTB} {O}."
+      ],
+      "uri": [
+        "{S} is {A} {ST} whose {P} {VTB} {O}.",
+        "{S}, whose {P} {VTB} {O}, is {A} {ST}."
+      ],
+      "rangeDomain": [
+        "{S} and {O} are {PV}."
+      ],
+      "memberOf": [
+        "{S} is member of the {O}{AP} {P}.",
+        "{S} is one of the {O} {P}{AP} members.",
+        "{O} {VHA} {S} as a member of {PRPOSS} {P}."
+      ]
+    },
+    "date": [
+      "{S}{AP} {P} is {O}."
+    ]
+  },
+  "questions": {
+    "numeric": {
+      "generic": [
+        "{PRON} is {S}{AP} {P}?"
+      ],
+      "year": [
+        "Which year was {S}{AP} {P}?"
+      ]
+    },
+    "string": {
+      "generic": [
+        "What is the {P} of {S}?",
+        "{PRON} is {S}{AP} {P}?"
+      ],
+      "uri": [
+        "What is the name of {S}{AP} {P}?",
+        "What is the {S}{AP} {P} name?",
+        "What is the {P} of {S}?",
+        "{PRON} is {S}{AP} {P}?"
+      ],
+      "memberOf": [
+        "{PRON} {P} is {S} part of?"
+      ],
+      "enumerate": [
+        "Cite at least one of {S}{AP} {P}."
+      ]
+    },
+    "date": [
+      "{PRON} is {S}{AP} {P}?"
+    ]
+  }
+}
